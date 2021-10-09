@@ -1,0 +1,11 @@
+#footer-main{
+    background-color: rgb(225, 173, 1);
+    display: flex;
+
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+#footer-main:hover{
+    color: black;
+}

@@ -1,0 +1,8 @@
+.body-main{
+    flex: 1;
+    background-color: rgb(225, 173, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
