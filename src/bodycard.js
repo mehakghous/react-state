@@ -6,7 +6,7 @@ function Card() {
                 We Here!!!
             </h1>
             <h3>
-                making a home page
+                Making a home page
             </h3>
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> <br/> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
