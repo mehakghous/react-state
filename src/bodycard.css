@@ -1,6 +1,8 @@
 .card{
     /* border: 2px solid black; */
-    width: 700px;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -10,9 +12,13 @@
 
     background-color: rgb(228, 219, 192);
 }
+.image{
+    height: 250px;
+    width: 300px;
+}
 #heading{
     /* margin: 10px; */
-    font-size: 300%;
+    /* font-size: 300%; */
 }
 #btn{
     padding: 20px;

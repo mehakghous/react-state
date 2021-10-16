@@ -1,18 +1,17 @@
 import './bodycard.css'
-function Card() {
-    return(
-        <div className = 'card'>
+function Card({ title, price, image }) {
+    return (
+        <div className='card'>
+           
+            <img src={image} alt={title} className="image" />
             <h1 id='heading'>
-                We Here!!!
+                {title}
             </h1>
-            <h3>
-                Making a home page
-            </h3>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> <br/> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            {price}
             </p>
-            <br/>
-            <button id='btn'>Contact Me</button>
+            <br />
+            <button id='btn'>ADD</button>
         </div>
     )
 }
