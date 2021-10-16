@@ -5,6 +5,7 @@ class Header extends React.Component{
     state = {
         appName: "Practice home-page"
     }
+    
     render(){
         return (
             <div className="head-main">
